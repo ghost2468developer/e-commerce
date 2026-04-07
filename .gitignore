@@ -1,0 +1,44 @@
+# Build & Visual Studio
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+*.vs/
+
+# User-specific files
+.vscode/
+*.user
+*.suo
+*.userprefs
+*.csproj.user
+
+# Rider IDE
+.idea/
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+
+# EF Migrations (optional: if you want to ignore generated migrations)
+Migrations/
+
+# appsettings secrets (keep passwords out of repo!)
+appsettings.Development.json
+appsettings.Local.json
+
+# Publish artifacts
+publish/
+*.zip
+
+# Node.js (if you ever use frontend)
+node_modules/
+
+# Others
+*.DS_Store
+*.bak
+*.swp
